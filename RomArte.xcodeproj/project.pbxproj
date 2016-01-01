@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACD713D1C36D9E100DD9DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD713C1C36D9E100DD9DC4 /* AppDelegate.swift */; };
+		FACD713F1C36D9E100DD9DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD713E1C36D9E100DD9DC4 /* ViewController.swift */; };
+		FACD71421C36D9E100DD9DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD71401C36D9E100DD9DC4 /* Main.storyboard */; };
+		FACD71441C36D9E100DD9DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACD71431C36D9E100DD9DC4 /* Assets.xcassets */; };
+		FACD71471C36D9E100DD9DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD71451C36D9E100DD9DC4 /* LaunchScreen.storyboard */; };
+		FACD71521C36D9E200DD9DC4 /* RomArteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD71511C36D9E200DD9DC4 /* RomArteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACD714E1C36D9E200DD9DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACD71311C36D9E100DD9DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACD71381C36D9E100DD9DC4;
+			remoteInfo = RomArte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACD71391C36D9E100DD9DC4 /* RomArte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomArte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD713C1C36D9E100DD9DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACD713E1C36D9E100DD9DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACD71411C36D9E100DD9DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACD71431C36D9E100DD9DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACD71461C36D9E100DD9DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACD71481C36D9E100DD9DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACD714D1C36D9E200DD9DC4 /* RomArteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomArteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD71511C36D9E200DD9DC4 /* RomArteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomArteTests.swift; sourceTree = "<group>"; };
+		FACD71531C36D9E200DD9DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACD71361C36D9E100DD9DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD714A1C36D9E200DD9DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACD71301C36D9E100DD9DC4 = {
+			isa = PBXGroup;
+			children = (
+				FACD713B1C36D9E100DD9DC4 /* RomArte */,
+				FACD71501C36D9E200DD9DC4 /* RomArteTests */,
+				FACD713A1C36D9E100DD9DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACD713A1C36D9E100DD9DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACD71391C36D9E100DD9DC4 /* RomArte.app */,
+				FACD714D1C36D9E200DD9DC4 /* RomArteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACD713B1C36D9E100DD9DC4 /* RomArte */ = {
+			isa = PBXGroup;
+			children = (
+				FACD713C1C36D9E100DD9DC4 /* AppDelegate.swift */,
+				FACD713E1C36D9E100DD9DC4 /* ViewController.swift */,
+				FACD71401C36D9E100DD9DC4 /* Main.storyboard */,
+				FACD71431C36D9E100DD9DC4 /* Assets.xcassets */,
+				FACD71451C36D9E100DD9DC4 /* LaunchScreen.storyboard */,
+				FACD71481C36D9E100DD9DC4 /* Info.plist */,
+			);
+			path = RomArte;
+			sourceTree = "<group>";
+		};
+		FACD71501C36D9E200DD9DC4 /* RomArteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACD71511C36D9E200DD9DC4 /* RomArteTests.swift */,
+				FACD71531C36D9E200DD9DC4 /* Info.plist */,
+			);
+			path = RomArteTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACD71381C36D9E100DD9DC4 /* RomArte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD71561C36D9E200DD9DC4 /* Build configuration list for PBXNativeTarget "RomArte" */;
+			buildPhases = (
+				FACD71351C36D9E100DD9DC4 /* Sources */,
+				FACD71361C36D9E100DD9DC4 /* Frameworks */,
+				FACD71371C36D9E100DD9DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomArte;
+			productName = RomArte;
+			productReference = FACD71391C36D9E100DD9DC4 /* RomArte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACD714C1C36D9E200DD9DC4 /* RomArteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD71591C36D9E200DD9DC4 /* Build configuration list for PBXNativeTarget "RomArteTests" */;
+			buildPhases = (
+				FACD71491C36D9E200DD9DC4 /* Sources */,
+				FACD714A1C36D9E200DD9DC4 /* Frameworks */,
+				FACD714B1C36D9E200DD9DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACD714F1C36D9E200DD9DC4 /* PBXTargetDependency */,
+			);
+			name = RomArteTests;
+			productName = RomArteTests;
+			productReference = FACD714D1C36D9E200DD9DC4 /* RomArteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACD71311C36D9E100DD9DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RomArte;
+				TargetAttributes = {
+					FACD71381C36D9E100DD9DC4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FACD714C1C36D9E200DD9DC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FACD71381C36D9E100DD9DC4;
+					};
+				};
+			};
+			buildConfigurationList = FACD71341C36D9E100DD9DC4 /* Build configuration list for PBXProject "RomArte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACD71301C36D9E100DD9DC4;
+			productRefGroup = FACD713A1C36D9E100DD9DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACD71381C36D9E100DD9DC4 /* RomArte */,
+				FACD714C1C36D9E200DD9DC4 /* RomArteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACD71371C36D9E100DD9DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD71471C36D9E100DD9DC4 /* LaunchScreen.storyboard in Resources */,
+				FACD71441C36D9E100DD9DC4 /* Assets.xcassets in Resources */,
+				FACD71421C36D9E100DD9DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD714B1C36D9E200DD9DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACD71351C36D9E100DD9DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD713F1C36D9E100DD9DC4 /* ViewController.swift in Sources */,
+				FACD713D1C36D9E100DD9DC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD71491C36D9E200DD9DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD71521C36D9E200DD9DC4 /* RomArteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACD714F1C36D9E200DD9DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACD71381C36D9E100DD9DC4 /* RomArte */;
+			targetProxy = FACD714E1C36D9E200DD9DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACD71401C36D9E100DD9DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACD71411C36D9E100DD9DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACD71451C36D9E100DD9DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACD71461C36D9E100DD9DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACD71541C36D9E200DD9DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACD71551C36D9E200DD9DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACD71571C36D9E200DD9DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RomArte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meeno.RomArte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACD71581C36D9E200DD9DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RomArte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meeno.RomArte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACD715A1C36D9E200DD9DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RomArteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meeno.RomArteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomArte.app/RomArte";
+			};
+			name = Debug;
+		};
+		FACD715B1C36D9E200DD9DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RomArteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meeno.RomArteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomArte.app/RomArte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACD71341C36D9E100DD9DC4 /* Build configuration list for PBXProject "RomArte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD71541C36D9E200DD9DC4 /* Debug */,
+				FACD71551C36D9E200DD9DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACD71561C36D9E200DD9DC4 /* Build configuration list for PBXNativeTarget "RomArte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD71571C36D9E200DD9DC4 /* Debug */,
+				FACD71581C36D9E200DD9DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACD71591C36D9E200DD9DC4 /* Build configuration list for PBXNativeTarget "RomArteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD715A1C36D9E200DD9DC4 /* Debug */,
+				FACD715B1C36D9E200DD9DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACD71311C36D9E100DD9DC4 /* Project object */;
+}
