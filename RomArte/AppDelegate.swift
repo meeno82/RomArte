@@ -8,11 +8,14 @@
 
 import UIKit
 
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FBSDKMessengerShareKit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -43,4 +46,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
